@@ -2,7 +2,7 @@ package Test::MockSleep;
 use strict;
 use warnings;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 no warnings 'redefine';
 my $time_hires_sleep;

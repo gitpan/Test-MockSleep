@@ -17,6 +17,10 @@ no_index:
   directory:
     - t
     - inc
+recommends:
+  Test::MockTime: 0
+  Time::HiRes: 0
 requires:
+  Dir::Self: 0
   Test::More: 0
-version: 0.01
+version: 0.02
